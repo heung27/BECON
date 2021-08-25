@@ -55,5 +55,5 @@ public interface ConcertRepository extends JpaRepository<Concert, Long> {
 			"AND c.isActive = 2")
 	void updateEndConcert();
 	
-	List<Concert> findByStartTimeBetween(String start, String end);
+	List<Concert> findByStartTimeBetweenOrderByStartTime(String start, String end);
 }
