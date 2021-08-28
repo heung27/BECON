@@ -1,4 +1,4 @@
-# ✨Project : Be Con!
+# Be Con
 <p align="center"><img width="540" alt="KakaoTalk_20210725_230610901" src="https://user-images.githubusercontent.com/77487962/127521182-6079635e-9e63-4bec-bdd0-15dede77638d.png"></p>
 
 > 같은 공간에서 함께 즐기는 너랑 내가 아닌 우리가 같이 만들어나가는 즐거운 공연문화 🎶
