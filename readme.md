@@ -9,12 +9,12 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 
 음악을 사랑하는 모두와 함께 소통할 수 있는 페스티벌, BECON로 오세요.
 
----
+<br>
 
 ## 🛠Stack
-<img src="https://img.shields.io/badge/JAVA-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"> <img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/gitlab-FCA121?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/aws-232F3E?style=for-the-badge&logo=aws&logoColor=white"> <img>
+<img src="https://img.shields.io/badge/JAVA-007396?style=flat-square&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white">  <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-1498F0?style=flat-square&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/gitlab-FCA121?style=flat-square&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white">
 
----
+<br>
 
 ## 📜Subject
 > 코로나 사태가 심화되면서 공연 문화가 죽고있다.
@@ -25,7 +25,7 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 - 아티스트들과 팬들간의 소통의 자리 마련
   - 비대면 환경 속에서도 서로 의사소통 할 수 있는 자리를 마련해줄 수 있음.
 
----
+<br>
 
 ## 🎬Planning the road
 > 같은 공간, 가슴뛰는 공연, 함께하는 소통
@@ -38,21 +38,17 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 - 코로나 블루의 확산
   - 문화활동 위축은 시민의 행복감에도 영향을 미친 것으로 나타났다. 코로나 이후 문화활동 변화로 인한 정서적 경험을 묻는 말에 응답자의 72.8%는 ‘문화시설을 방문하지 못해 답답함을 느꼈다’고 답했다.
 
----
+<br>
 
 ## 👨‍💻Specification
-
 > 프로젝트의 명세!
 
 ### 배포 환경
+- URL : http://i5d102.p.ssafy.io/
+- 배포 : ❌
+- HTTPS  : ⭕️
 
-- __URL__ : 
-✔️ http://3.36.67.58/
-✔️ http://i5d102.p.ssafy.io/
-- __배포 여부__ : ⭕️
-- __접속 가능__ : ⭕️
-- __HTTPS 적용__ : ⭕️
-  <br>
+<br>
 
 ### 개발 환경
 #### Frontend 
@@ -70,16 +66,14 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 - Docker
 - 담당자 : 이상민
 
+<br>
+
 > Design Resources
 - 외부 템플릿 또는 에셋 : [Linoor - Vue Nuxt Digital Agency Services Template](https://themeforest.net/item/linoor-vue-nuxt-digital-agency-services-template/29146481) (유료) 
   - 사용 기능 : 프로젝트 전체적인 프레임 및 컴포넌트 사용
 
 
-- LOGO
-<img width="540" alt="KakaoTalk_20210725_230610901" src="https://user-images.githubusercontent.com/77487962/127521182-6079635e-9e63-4bec-bdd0-15dede77638d.png">
-
 > 핵심 라이브러리
-
 - WebRTC를 사용하면 개방형 표준 위에서 작동하는 애플리케이션에 실시간 통신 기능을 추가 할 수 있습니다.
 - 피어간에 전송되는 비디오, 음성 및 일반 데이터를 지원하므로 개발자는 강력한 음성 및 비디오 통신 솔루션을 구축 할 수 있습니다. 
 - 이 기술은 모든 최신 브라우저와 모든 주요 플랫폼의 기본 클라이언트에서 사용할 수 있습니다. 
@@ -87,7 +81,7 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 - Android 및 iOS 애플리케이션과 같은 기본 클라이언트의 경우 동일한 기능을 제공하는 라이브러리를 사용할 수 있습니다.
 - WebRTC 프로젝트는 오픈 소스 이며 Apple, Google, Microsoft 및 Mozilla 등이 지원합니다. 이 페이지는 Google WebRTC 팀에서 관리합니다.
 
----
+<br>
 
 ## 🤭Rules (꼭 지킵시다!!)
 > 협업을 위해 개발에 필요한 여러 규칙들을 정의합니다
