@@ -40,22 +40,6 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 
 ---
 
-## 🎨Design
-![frontend2_-_Chrome_2021-07-30_01-05-51](/uploads/00c2dbf2e974cea32aca5e41667f45f3/frontend2_-_Chrome_2021-07-30_01-05-51.mp4)
-
-- Main
-![메인화면](/uploads/e8609de488a7bcd5c39b18468d9d0b99/메인화면.PNG) 
-- My Page
-![마이서비스](/uploads/410f7f0887eccd50a8812fe46bee5979/마이서비스.PNG)
-![마이페이지](/uploads/3a4bd28d3b531adbfc6ab83d37a9f918/마이페이지.PNG)
-![공연신청내역](/uploads/c3b093d0578ab4ae62262640505f890c/공연신청내역.PNG)
-- Concert
-![공연신청](/uploads/5cd86db02a10a632a8cc7675cfe81a0f/공연신청.PNG)
-![콘서트입장](/uploads/d0302c0f5e49ea750284f4fed6c9a086/콘서트입장.PNG)
-
-
----
-
 ## 👨‍💻Specification
 
 > 프로젝트의 명세!
