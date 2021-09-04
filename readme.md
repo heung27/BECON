@@ -121,9 +121,9 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 <br>
 
 ### 서비스 소개
-[프로젝트 개요](document/beconPPT.pdf)
-[화면설계](document/screen)
-[DB설계](document/beconERD.PNG)
+- [프로젝트 PPT](document/beconPPT.pdf)
+- [화면설계](document/screen)
+- [DB설계](document/beconERD.PNG)
 
 <br>
 
