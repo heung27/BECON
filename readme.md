@@ -120,7 +120,7 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 공연 플�
 
 <br>
 
-### 산출물
+## 산출물
 - [프로젝트 PPT](document/beconPPT.pdf)
 - [화면설계](document/screen)
 - [DB설계](document/beconERD.PNG)
