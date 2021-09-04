@@ -7,28 +7,12 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 국적과 인종, 성별 등과 상관 없이 음악을 사랑하는 사람들이라면 누구든지 하나가 될 수 있는
 다양한 장르의 뮤지션들과 함께 신나는 분위기부터 여유로운 분위기까지 모두 느껴보세요.
 
-음악을 사랑하는 모두와 함께 소통할 수 있는 페스티벌, BECON로 오세요.
+음악을 사랑하는 모두와 함께 소통할 수 있는 페스티벌, BECON으로 오세요.
 
 <br>
 
-## 🛠Stack
-<img src="https://img.shields.io/badge/JAVA-007396?style=flat-square&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/Spring-6DB33F?style=flat-square&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=flat-square&logo=vue.js&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white">  <img src="https://img.shields.io/badge/html-E34F26?style=flat-square&logo=html5&logoColor=white"> <img src="https://img.shields.io/badge/css-1572B6?style=flat-square&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/MySQL-1498F0?style=flat-square&logo=MySQL&logoColor=white"> <img src="https://img.shields.io/badge/gitlab-FCA121?style=flat-square&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat-square&logo=amazon-aws&logoColor=white">
-
-<br>
-
-## 📜Subject
+## 기획 배경
 > 코로나 사태가 심화되면서 공연 문화가 죽고있다.
-- 온라인 화상 비대면 공연 플랫폼
-  - webRTC 기술을 이용한 실시간 양방향 소통 서비스 제공
-- 많은 아티스트들 위한 온택트 공연 환경 제공
-  - 코로나 19로 인해 죽어가는 공연 문화 속에서 새로운 공연 문화를 정착시킬 수 있음.
-- 아티스트들과 팬들간의 소통의 자리 마련
-  - 비대면 환경 속에서도 서로 의사소통 할 수 있는 자리를 마련해줄 수 있음.
-
-<br>
-
-## 🎬Planning the road
-> 같은 공간, 가슴뛰는 공연, 함께하는 소통
 - 코로나 사태 심각
   - 방역 당국은 백신을 통한 통제를 강조하고 있지만, 일부 수급에 차질이 빚어지고 있어, 지금의 감염 확산 속도라면 다음 달쯤 델타 변이 비중이 70~80%에 이를 거라는 전망이 있다.
 - 죽어가는 공연 문화
@@ -40,46 +24,113 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 
 <br>
 
-## 👨‍💻Specification
-> 프로젝트의 명세!
-
-### 배포 환경
-- URL : http://i5d102.p.ssafy.io/
-- 배포 : ❌
-- HTTPS  : ⭕️
+## 과제
+> 같은 공간, 가슴뛰는 공연, 함께하는 소통
+- 온라인 화상 비대면 공연 플랫폼
+  - WebRTC 기술을 이용한 실시간 양방향 소통 서비스 제공한다.
+- 많은 아티스트들 위한 온택트 공연 환경 제공
+  - 코로나 19로 인해 죽어가는 공연 문화 속에서 새로운 공연 문화를 정착시킨다.
+- 아티스트들과 팬들간의 소통의 자리 마련
+  - 비대면 환경 속에서도 서로 소통 할 수 있는 자리를 마련한다.
 
 <br>
 
-### 개발 환경
-#### Frontend 
-- Framework : Vue.js
+## 주요 기능
+- 콘서트 스트리밍 서비스
+  - 아티스트는 자신의 콘서트를 등록하고 예정된 시간에 콘서트 진행
+  - 채팅 기능을 통해 아티스트와 팬 소통
+  - VIP 티켓을 구매한 팬들은 자신의 캠을 통해 더욱 직접적인 소통 가능
+  - 실시간으로 콘서트 상태 관리 (대기, 준비, 진행, 종료) 
+- 콘서트 티켓 서비스
+  - VIP 티켓과 STAND 티켓으로 구분하여 콘서트방 기능 차별화
+  - 본인인증 & 티켓 결제
+  - 구매 내역 관리
+  - 티켓 번호를 통해 콘서트 입장 가능
+  - 공연 시작 1시간전 LMS문자 알림
+
+<br>
+
+## 배포
+- URL : http://i5d102.p.ssafy.io/
+- 배포 여부 : ❌
+- HTTPS 적용 : ⭕️
+
+<br>
+
+## 개발 환경
+### Frontend 
+- VueJs 
+- vue/cli 4.5.13
+- NodeJS 14.17.3
+- IDE : VSCode 1.59.0
+- 디자인 : [Linoor - Vue Nuxt Digital Agency Services Template](https://themeforest.net/item/linoor-vue-nuxt-digital-agency-services-template/29146481) 활용 (유료) 
 - 지원 환경 : Web / Mobile / Web App / Native App
 - 담당자 : 권준엽, 황배근
 
-#### Backend
-- Framework : Spring boot 
-- Database : MySQL 
+### Backend
+- Spring boot 2.4.5
+- JDK 1.8.0_192
+- Gradle 6.7
+- MySQL 5.7
+- Redis 6.0.15
+- IDE : Eclipse 2020.06
 - 담당자 : 강민주, 안진흥
 
-#### DevOps
-- AWS
+### DevOps
+- AWS EC2 : Ubuntu 20.
 - Docker
+- Nginx 1.18.0
+- Tomcat 9.0.45
+- Let’s Encrypt SSL
 - 담당자 : 이상민
+
+### 협업
+- GitLab
+- JIRA
+- Notion
+- Figma
 
 <br>
 
-> Design Resources
-- 외부 템플릿 또는 에셋 : [Linoor - Vue Nuxt Digital Agency Services Template](https://themeforest.net/item/linoor-vue-nuxt-digital-agency-services-template/29146481) (유료) 
-  - 사용 기능 : 프로젝트 전체적인 프레임 및 컴포넌트 사용
+## 아키텍처
+![아키텍처](https://user-images.githubusercontent.com/62068895/132088326-56f7a875-2285-4239-a8d0-a5a713c7e7a4.PNG)
 
+<br>
 
-> 핵심 라이브러리
-- WebRTC를 사용하면 개방형 표준 위에서 작동하는 애플리케이션에 실시간 통신 기능을 추가 할 수 있습니다.
-- 피어간에 전송되는 비디오, 음성 및 일반 데이터를 지원하므로 개발자는 강력한 음성 및 비디오 통신 솔루션을 구축 할 수 있습니다. 
-- 이 기술은 모든 최신 브라우저와 모든 주요 플랫폼의 기본 클라이언트에서 사용할 수 있습니다. 
-- WebRTC 기반의 기술은 개방형 웹 표준으로 구현되며 모든 주요 브라우저에서 일반 JavaScript API로 사용할 수 있습니다.
-- Android 및 iOS 애플리케이션과 같은 기본 클라이언트의 경우 동일한 기능을 제공하는 라이브러리를 사용할 수 있습니다.
-- WebRTC 프로젝트는 오픈 소스 이며 Apple, Google, Microsoft 및 Mozilla 등이 지원합니다. 이 페이지는 Google WebRTC 팀에서 관리합니다.
+## 주요 기술
+#### WebSocket
+   > websocket이란 웹 서버와 웹 브라우저간 실시간 양방향 통신환경을 제공해주는 실시간 통신 기술. Polling 방식(요청-응답방식)과 다르게 양방향으로 원할때 요청을 보낼 수 있으며 stateless한 HTTP에 비해 오버헤드가 적은 장점이 있다. HTTP 프로토콜에서 HandShaking을 완료한 후 지속적인 양방향 통신을 한다.
+#### Stomp
+   > 텍스트 기반 메세징 프로토콜. WebSocket 위에서 동작하는 프로토콜로써 클라이언트와 서버가 전송할 메세지의 유형, 형식, 내용들을 정의하는 매커니즘이다. pub/sub 구조로 되어있어 메세지를 전송하고 메세지를 받아 처리하는 부분이 확실히 정해져 있기 때문에 개발자 입장에서 명확하게 인지하고 개발할 수 있는 이점이 있다.
+#### SockJS
+   > WebSocket과 유사한 객체를 제공하는 브라우저 JavaScript 라이브러리. SockJS는 브라우저와 웹 서버간에 낮은 대기 시간, 전이중, 도메인 간 통신 채널을 생성하는 일관된 크로스 브라우저 Javascript API를 제공합니다. SockJS는 모든 최신 브라우저와 WebSocket 프로토콜을 지원하지 않는 환경에서 작동하도록 고안되었습니다. 
+#### kurento
+   > WebRTC 미디어 서버 및 클라이언트 API 세트. Kurento Media Server 기능에는 그룹 통신, 트랜스코딩, 녹음, 믹싱, 방송 및 시청각 흐름 라우팅이 포함된다.
+#### Redis
+   > 메모리 기반의 “키-값” 구조 데이터 관리 시스템. 모든 데이터를 메모리에 저장하고 조회하기에 빠른 Read, Write 속도를 보장하는 비 관계형 데이터베이스이다.
+#### Spring Security
+   > 스프링 기반의 애플리케이션의 보안(인증과 권한, 인가 등)을 담당하는 스프링 하위 프레임워크.
+#### JWT
+   > Json 포맷을 이용하여 사용자에 대한 속성을 저장하는 Claim 기반의 Web Token. JWT는 토큰 자체를 정보로 사용하는 Self-Contained 방식으로 정보를 안전하게 전달한다.
+#### Spring Scheduler
+   > 스프링 3.1버전부터 스프링에서 제공해주는 스케줄러. Quartz보다 스케줄러를 디테일하게 사용하도록 하진 않지만 구현이 매우 간단하다.
+#### JPA
+   > 자바 ORM 기술에 대한 API 표준 명세. 자바 어플리케이션에서 관계형 관계형 데이터베이스를 사용하는 방식을 정의한 인터페이스이다. ORM에 대한 자바 API 규격이며 Hibernate, OpenJPA 등이 JPA를 구현한 구현체 이다.
+
+<br>
+
+## 서비스 소개
+### 메인 화면
+
+### 콘서트
+
+### 마이서비스
+
+### 콘서트스케줄
+
+### 콘서트 등록
+
+### 고객센터
 
 <br>
 
@@ -95,7 +146,6 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 - **반드시 다른 사람에게 코드 리뷰를 받은 후 merge** 할 것
 
 ### JIRA 규칙
-
 - 큰틀은 BE, FE로 구분
 - 명세서 기준 스토리는 분류, 작업은 제목, 부작업은 명세의 기능으로 구성한다 
 - 작업은 작업을 포함하는 스토리를 이슈에 연결하여 생성
@@ -104,7 +154,6 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 콘서트 �
 - 스프린트에서 상태 변경하기
 
 ### 파일명 및 변수명 규칙
-
 - vue 관련 파일명 : 소문자로만 구성, 띄어쓰기시 - 로 구분
 - Spring 관련 파일 : 파스칼 표기법, 카멜 표기법과 동일하지만 첫 글자를 대문자로 표기 ex) PascalCase
 - 메소드의 이름은 대소문자 혼용 가능하지만 반드시 동사를 사용하여 소문자로 시작 ex) checkRange()
