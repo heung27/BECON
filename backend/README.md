@@ -1,13 +1,4 @@
-# Dependencies
-[Back-end]
-MySQL
-Java 8+
-Gradle 6.7+
-Eclipse or IntelliJ
-
-[Front-end]
-Node 14+
-VS Studio
+# Backend
 
 # mysql 접근
 url: jdbc:mysql://localhost:3306
