@@ -51,7 +51,7 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 공연 플�
 <br>
 
 ## 배포
-- URL : http://i5d102.p.ssafy.io/
+- URL : https://i5d102.p.ssafy.io/
 - 배포 여부 : ❌
 - HTTPS 적용 : ⭕️
 
