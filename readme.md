@@ -132,7 +132,7 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 공연 플�
 
 ### GIT 규칙
 - 작업단위로 브랜치 생성하여 작업하기
-- 브랜치 구조 : master - develop(한개) - 기능별 브랜치 이름(역할 분배 된 대로)
+- 브랜치 구조 : master - develop - 기능별 브랜치 이름(역할 분배 된 대로)
 - 브랜치명 규칙 : BE-WebRTC, FE-ConferencePopup
 - Merge 규칙 : 명세서 기반, 지라 기준 한개의 작업 또는 한개의 부작업 구현 완료시 Merge
 - Commit 규칙 : 수정 시 Modify 기능명, 추가 시 Add 기능명, 삭제시 Delete 기능명 등 앞에 확실히 알 수 있는 단어 붙이기
