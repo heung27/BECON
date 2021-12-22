@@ -87,7 +87,7 @@ BECON은 공연을 즐기는 사람들을 위해 시작된 비대면 공연 플�
 
 ### 협업
 - GitLab
-- JIRA
+- Jira
 - Notion
 - Figma
 
